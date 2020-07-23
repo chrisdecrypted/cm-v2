@@ -29,41 +29,25 @@ let Data = {
       ],
     "portfolio":[
       {
+        "name":"Linux Handbook",
+        "description":"Content creator for a popular command line linux blog. I write scripts and teach programming and system administration concepts.",
+        "imgUrl":"images/portfolio/lhandbook-thumbnail.png",
+        "imgAlt":"Screenshot of Linux Handbook",
+        "demoUrl":"https://www.linuxhandbook.com"
+      },
+      {
         "name":"Marnie Sorensen",
-        "description":"Portfolio of Interior Design Professional",
+        "description":"Comissioned work for an Interior Designer.",
         "imgUrl":"images/portfolio/ms-thumbnail.png",
         "imgAlt":"Screenshot of Marnie Sorensen's Portfolio",
         "demoUrl":"https://www.marniesorensen.com"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgUrl":"images/portfolio/wordpress-thumbnail.jpg",
-        "imgAlt":"",
-        "demoUrl":"https://www.marniesorensen.com"
-
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
+        "name":"Prequels",
+        "description":"Logo/asset design, HTML5/CSS3 ",  
         "imgUrl":"images/portfolio/prequels-thumbnail.png",
-        "demoUrl":"https://www.marniesorensen.com"
-
-      },
-      {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgUrl":"images/portfolio/php-thumbnail.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgUrl":"images/portfolio/wedgewood-thumbnail.jpg"
-      },
-      {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgUrl":"images/portfolio/prequels-thumbnail.png"
+        "imgAlt":"Screenshot of Prequels Band Official Site",
+        "demoUrl":"https://www.the-prequels.com"
       }
     ],
   }
