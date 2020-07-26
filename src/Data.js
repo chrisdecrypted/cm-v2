@@ -7,6 +7,7 @@ let Data = {
     "roleDescription": " I specialize in PHP (Laravel, WordPress). I also have experience using with React, Python, and Google Cloud Platform.",
     "socialLinks":[
         {
+<<<<<<< HEAD
           "name":"LinkedIn",
           "url":"https://www.linkedin.com/in/christophercmurray/",
           "svgSrc":"svg/linkedin.svg"
@@ -25,6 +26,26 @@ let Data = {
           "name":"Google Drive Resume",
           "url":"https://drive.google.com/file/d/1a1lfk70F6lYm3ohBhexyVIOCxdhlwozE/view?usp=sharing",
           "svgSrc":"./svg/googledrive.svg"
+=======
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/christophercmurray/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"github",
+          "url":"http://github.com/cmurray21",
+          "className":"fa fa-github"
+        },
+        {
+          "name":"twitter",
+          "url":"http://twitter.com/Christopher_aaS",
+          "className":"fa fa-twitter"
+        },
+        {
+          "name":"resume",
+          "url":"https://drive.google.com/file/d/1a1lfk70F6lYm3ohBhexyVIOCxdhlwozE/view?usp=sharing",
+          "className":"fa fa-file"
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
         }
       ],
     "portfolio":[

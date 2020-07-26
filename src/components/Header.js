@@ -13,7 +13,11 @@ export default class Header extends Component {
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#projects">Projects</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
+<<<<<<< HEAD
                <li><a href="https://drive.google.com/file/d/1a1lfk70F6lYm3ohBhexyVIOCxdhlwozE/view?usp=sharing" rel="noopener noreferrer" target="_blank" download>Download Resume</a></li>
+=======
+               <li><a href="https://drive.google.com/file/d/1a1lfk70F6lYm3ohBhexyVIOCxdhlwozE/view?usp=sharing" rel="noopener noreferrer" target="_blank">Download Resume</a></li>
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
 
             </ul>
          </nav>
@@ -21,17 +25,27 @@ export default class Header extends Component {
          <div className="row banner">
             <div className="banner-text">
                <h1 className="responsive-headline">{Data.name}</h1>
+<<<<<<< HEAD
                <h2 className="">{Data.role}.{Data.roleDescription}
 </h2>
               
+=======
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{Data.role}.{Data.roleDescription}
+               </h3>
+               <hr/>
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
                <ul className="social">
                   {
                     Data.socialLinks && Data.socialLinks.map(item =>{
                       return(
                               <li key={item.name}>
+<<<<<<< HEAD
                                  <a href={item.url} rel="noopener noreferrer" target="_blank">
                                     <img aria-label={item.name} alt={item.name} src={item.svgSrc}></img> 
                                  </a>
+=======
+                                <a href={item.url} rel="noopener noreferrer" target="_blank"><i className={item.className}></i></a>
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
                               </li>
                             )
                           }

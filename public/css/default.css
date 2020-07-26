@@ -1,3 +1,262 @@
+<<<<<<< HEAD
+=======
+/* 
+=====================================================================
+*   Ceevee v1.0 Default Stylesheet
+*   url: styleshout.com
+*   03-17-2014
+=====================================================================
+
+TOC:
+a. Webfonts and Icon fonts
+b. Reset
+c. Default Styles
+   1. Basic
+   2. Typography
+   3. Links
+   4. Images
+   5. Buttons
+   6. Forms
+d. Grid
+e. Others
+   1. Clearing
+   2. Misc
+
+=====================================================================  */
+
+/* ------------------------------------------------------------------ */
+/* a. Webfonts and Icon fonts
+ ------------------------------------------------------------------ */
+
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+/* ------------------------------------------------------------------
+/* b. Reset
+      Adapted from:
+      Normalize.css - https://github.com/necolas/normalize.css/
+      HTML5 Doctor Reset - html5doctor.com/html-5-reset-stylesheet/
+/* ------------------------------------------------------------------ */
+/* 
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display: block;
+}
+
+audio,
+canvas,
+video {
+   display: inline-block;
+}
+
+audio:not([controls]) {
+   display: none;
+   height: 0;
+}
+
+[hidden] { display: none; }
+
+code, kbd, pre, samp {
+   font-family: monospace, serif;
+   font-size: 1em;
+}
+
+pre {
+   white-space: pre;
+   white-space: pre-wrap;
+   word-wrap: break-word;
+}
+
+blockquote, q { quotes: &#8220 &#8220; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+
+ins {
+   background-color: #ff9;
+   color: #000;
+   text-decoration: none;
+}
+
+mark {
+   background-color: #55ccff;
+   color: #555;
+}
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+   border-bottom: 1px dotted;
+   cursor: help;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+} */
+
+
+/* ------------------------------------------------------------------ */
+/* c. Default and Basic Styles
+      Adapted from:
+      Skeleton CSS Framework - http://www.getskeleton.com/
+      Typeplate Typographic Starter Kit - http://typeplate.com/
+/* ------------------------------------------------------------------ */
+
+/*  1. Basic  ------------------------------------------------------- */
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* html {
+   font-size: 62.5%;
+   -webkit-font-smoothing: antialiased;
+} */
+
+/*  2. Typography
+       Vertical rhythm with leading derived from 6
+--------------------------------------------------------------------- */
+
+/* h1, h2, h3, h4, h5, h6 {
+   color: #313131;
+	font-family: 'opensans-bold', sans-serif;
+   font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
+h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
+h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
+h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
+h5 { font-size: 18px; line-height: 30px; }
+h6 { font-size: 14px; line-height: 30px; }
+.subheader { }
+
+p { margin: 0 0 30px 0; }
+p img { margin: 0; }
+p.lead {
+   font: 19px/36px 'opensans-light', sans-serif;
+   margin-bottom: 18px;
+} */
+
+/* for 'em' and 'strong' tags, font-size and line-height should be same with
+the body tag due to rendering problems in some browsers */
+/* em { font: 15px/30px 'opensans-italic', sans-serif; }
+strong, b { font: 15px/30px 'opensans-bold', sans-serif; }
+small { font-size: 11px; line-height: inherit; }
+
+/*	Blockquotes */
+/* blockquote {
+   margin: 30px 0px;
+   padding-left: 40px;
+   position: relative;
+}
+blockquote:before {
+   content: "\201C";
+   opacity: 0.45;
+   font-size: 80px;
+   line-height: 0px;
+   margin: 0;
+   font-family: arial, sans-serif;
+
+   position: absolute;
+   top:  30px;
+	left: 0;
+}
+blockquote p {
+   font-family: 'librebaskerville-italic', serif;
+   padding: 0;
+   font-size: 18px;
+   line-height: 36px;
+}
+blockquote cite {
+   display: block;
+   font-size: 12px;
+   font-style: normal;
+   line-height: 18px;
+}
+blockquote cite:before { content: "\2014 \0020"; }
+blockquote cite a,
+blockquote cite a:visited { color: #8B9798; border: none } */ */
+
+/* ---------------------------------------------------------------------
+/*  Pull Quotes Markup
+/*
+    <aside class="pull-quote">
+		<blockquote>
+			<p></p>
+		</blockquote>
+	 </aside>
+/*
+/* --------------------------------------------------------------------- */
+/* .pull-quote {
+   position: relative;
+	padding: 18px 30px 18px 0px;
+}
+.pull-quote:before,
+.pull-quote:after {
+	height: 1em;
+	opacity: 0.45;
+	position: absolute;
+	font-size: 80px;
+   font-family: Arial, Sans-Serif;
+}
+.pull-quote:before {
+	content: "\201C";
+	top:  33px;
+	left: 0;
+}
+.pull-quote:after {
+	content: '\201D';
+	bottom: -33px;
+	right: 0;
+}
+.pull-quote blockquote {
+   margin: 0;
+}
+.pull-quote blockquote:before {
+   content: none;
+}
+
+/* Abbreviations */
+abbr {
+   font-family: 'opensans-bold', sans-serif;
+	font-variant: small-caps;
+	text-transform: lowercase;
+   letter-spacing: .5px;
+	color: gray;
+}
+abbr:hover { cursor: help; }
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
 
 /* drop cap */
 .drop-cap:first-letter {
@@ -5,7 +264,11 @@
 	margin: 0;
 	padding: 14px 6px 0 0;
 	font-size: 84px;
+<<<<<<< HEAD
 	font-family: 'sans-serif', sans-serif;
+=======
+	font-family: 'opensans-bold', sans-serif;
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
    line-height: 60px;
 	text-indent: 0;
 	background: transparent;
@@ -74,7 +337,11 @@ li p { } */
 .stats-tabs li a {
 	display: inline-block;
 	font-size: 22px;
+<<<<<<< HEAD
 	font-family: 'sans-serif', sans-serif;
+=======
+	font-family: 'opensans-bold', sans-serif;
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
    border: none;
    color: #313131;
 }
@@ -141,7 +408,11 @@ dd { margin: 0 0 0 20px; }
    padding: 0;
 }
 .pagination .page-numbers {
+<<<<<<< HEAD
    font: 15px/18px 'sans-serif', sans-serif;
+=======
+   font: 15px/18px 'opensans-bold', sans-serif;
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
    display: inline-block;
    padding: 6px 10px;
    margin-right: 3px;
@@ -282,7 +553,11 @@ select {
 	background: #444444;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 767px) {
+=======
+@media only screen and (max-width: 500px) {
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -293,8 +568,13 @@ select {
    margin: 0 0 24px 0;
    border: 0;
    outline: none;
+<<<<<<< HEAD
    min-width: 20rem;
 	max-width: 35rem;
+=======
+   min-width: 0rem;
+	max-width: 100%;
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
    font-size: 24px;
    line-height: 24px;
 	color: #cccccc;
@@ -317,7 +597,11 @@ textarea {
 
 label,
 legend {
+<<<<<<< HEAD
    font: 16px/24px 'sans-serif', sans-serif;
+=======
+   font: 16px/24px 'opensans-bold', sans-serif;
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
 	margin: 12px 0;
    color: #fff;
    display: block;
@@ -443,7 +727,11 @@ input[type="checkbox"] { display: inline; }
 .bgrid-thirds [class*="column"]   { width: 33.33333%; }
 .bgrid-halves [class*="column"]   { width: 50%; }
 
+<<<<<<< HEAD
 [class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: left; }
+=======
+[class*="bgrid"] [class*="column"] + [class*="column"]:last-child { float: right; }
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
 
 /* Left clearing for block grid columns - columns that changes width in
 different screen sizes. Allows columns with different heights to align
@@ -460,7 +748,11 @@ properly.
    .s-bgrid-sixths [class*="column"]   { width: 16.66667%; }
    .s-bgrid-quarters [class*="column"] { width: 25%; }
    .s-bgrid-thirds [class*="column"]   { width: 33.33333%; }
+<<<<<<< HEAD
    .s-bgrid-single [class*="column"]   { width: 100%; }
+=======
+   .s-bgrid-halves [class*="column"]   { width: 50%; }
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
 
    /* block grids left clearing */
    .first { clear: none; }

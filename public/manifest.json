@@ -1,15 +1,28 @@
 {
+<<<<<<< HEAD
   "short_name": "CM Portfolio",
   "name": "Christopher Murray's Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
+=======
+  "short_name": "React App",
+  "name": "Christopher Murray's Portfolio",
+  "icons": [
+    {
+      "src": "favicon.png",
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
   ],
   "start_url": ".",
   "display": "standalone",
+<<<<<<< HEAD
   "theme_color": "#fefefe",
   "background_color": "#0f0f0f"
+=======
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
 }

@@ -22,10 +22,14 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
+<<<<<<< HEAD
 body { 
    background: #0f0f0f; 
    color:
 }
+=======
+body { background: #0f0f0f; }
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
 
 
 /* ------------------------------------------------------------------ */
@@ -245,8 +249,13 @@ ul#nav li.current a { color: #61dafb; }
 .portfolio-item .item-wrap .link-icon {
    display: block;
    color: #fff;
+<<<<<<< HEAD
    height: 48px;
    width: 48;
+=======
+   height: 30px;
+   width: 30px;
+>>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
    font-size: 18px;
    line-height: 30px;
    text-align: center;
