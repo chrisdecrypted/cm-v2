@@ -8,11 +8,7 @@ export default class Portfolio extends Component {
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Projects</h1>
-<<<<<<< HEAD
           <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-single cf">
-=======
-          <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-halves cf">
->>>>>>> 8be509097d7080ac4ce8fa8061f09301dfb3952b
           {
             Data.portfolio && Data.portfolio.map((item)=>{
               return(
